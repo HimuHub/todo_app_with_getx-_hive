@@ -159,9 +159,9 @@ class _HomeState extends State<Home> {
                             NoteModel note = box.getAt(index);
                             return Card(
                               child: ListTile(
-                                leading: Text(note.id),
-                                title: Text(note.name),
-                                subtitle: Text(note.department),
+                                leading: Text(note.Time),
+                                title: Text(note.Title),
+                                subtitle: Text(note.Discription),
                                 trailing: Container(
                                   width: 100,
                                   child: Row(
