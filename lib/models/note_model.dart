@@ -4,11 +4,11 @@ part 'note_model.g.dart';
 @HiveType(typeId: 0)
 class NoteModel {
   @HiveField(0)
-  String id;
+  String Time;
   @HiveField(1)
-  String name;
+  String Title;
   @HiveField(2)
-  String department;
+  String Discription;
 
-  NoteModel(this.name, this.id, this.department);
+  NoteModel(this.Title, this.Time, this.Discription);
 }
