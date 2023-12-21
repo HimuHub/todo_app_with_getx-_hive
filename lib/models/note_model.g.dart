@@ -28,11 +28,11 @@ class NoteModelAdapter extends TypeAdapter<NoteModel> {
     writer
       ..writeByte(3)
       ..writeByte(0)
-      ..write(obj.id)
+      ..write(obj.Time)
       ..writeByte(1)
-      ..write(obj.name)
+      ..write(obj.Title)
       ..writeByte(2)
-      ..write(obj.department);
+      ..write(obj.Discription);
   }
 
   @override
