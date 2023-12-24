@@ -7,8 +7,10 @@ Key Features:
 
     GetX State Management: Seamlessly manage app states for a smooth user experience.
     Hive Local Database: Your data, your space! Utilizing Hive for efficient and secure local storage.
-    Time Stamps: Keep track of your tasks with added timestamps for better organization.
-    Title & Description: Capture the essence of your tasks with detailed titles and descriptions.
+    Edit & Delete: Easily edit titles, descriptions, and time schedules to adapt to your evolving tasks.
+   
+   
+
 
 As a Flutter enthusiast navigating the learning curve, this app represents my commitment to continuous improvement. While it may not be flawless, it's a testament to my dedication and eagerness to evolve.
 
